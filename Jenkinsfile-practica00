@@ -18,7 +18,7 @@ pipeline {
             steps {
                 script {
                     // Los parametros pueden ser accedidos mediante params.parameterName
-                    echo "Hola, ${env.ENV_VAR}! Tienes ${params.age} de edad."
+                    echo "Hola, ${params.parameterName}! Tienes ${params.age} de edad."
                 }
             }
         }
