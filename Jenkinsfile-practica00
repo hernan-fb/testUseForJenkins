@@ -1,8 +1,8 @@
 pipeline {
     agent any
     parameters {
-        string(name: 'name', defaultValue: '', description: 'Ingresa un nombre')
-        string(name: 'age', defaultValue: '', description: 'Ingresa tu edad')
+        string(name: 'name', defaultValue: 'Default Name', description: 'Ingresa un nombre')
+        string(name: 'age', defaultValue: 'so many', description: 'Ingresa tu edad')
         text(name: 'BIOGRAPHY', defaultValue: '', description: 'Enter some information about the person')
         booleanParam(name: 'TOGGLE', defaultValue: true, description: 'Toggle this value')
         choice(name: 'CHOICE', choices: ['One', 'Two', 'Three'], description: 'Pick something')
