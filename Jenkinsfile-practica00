@@ -11,7 +11,7 @@ pipeline {
     }
     environment {
         // Variables de entorno
-        ENV_VAR = 'Hola, mundo!'
+        ENV_VAR = 'Hola, mundo!, qué tal?'
     }
     stages {
         stage('Input') {
