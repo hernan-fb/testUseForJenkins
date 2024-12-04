@@ -15,7 +15,7 @@ npm install
 ``` 
 
 ### Run the tests
-```bash 
+```bash  
 npm test
 ```
 
