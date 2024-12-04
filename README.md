@@ -12,10 +12,10 @@ git clone https://github.com/yosoyfunes/nodejs-helloworld-api.git
 ### Install dependencies
 ```bash
 npm install
-```
+``` 
 
 ### Run the tests
-```bash
+```bash 
 npm test
 ```
 
